@@ -1,12 +1,11 @@
 
 # mysql # phpmyadmin # wordpress
 
-# wir starten 1 master und 2 worker nodes
-minikube start --nodes 3 -p my-nodes
+## wir starten 1 master und 2 worker nodes
+* minikube start --nodes 3 -p my-nodes
 * kubectl get nodes      
 * minikube status -p my-nodes
 * minikube dashboard
-* 
 
 # create namespace 
 * kubectl apply -f namespace.yaml
@@ -16,7 +15,7 @@ minikube start --nodes 3 -p my-nodes
 * kubectl get services -A
 
 # create secret
-kubectl apply -f secret.yaml
+* kubectl apply -f secret.yaml
 
 # create deployment 
 * kubectl apply -f deployment-mysql.yaml
