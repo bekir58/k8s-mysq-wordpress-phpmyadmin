@@ -34,10 +34,10 @@
 
 
 
-# delete all 
+## delete all 
 kubectl delete -n test
 
-# delete minikube
+## delete minikube
 minikube delete -p my-nodes
 
 

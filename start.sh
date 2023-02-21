@@ -1,7 +1,6 @@
 
 
-# mysql # phpmyadmin # wordpress
-## wir starten 1 master und 2 worker nodes
+# start minikube 
 minikube start --nodes 3 -p my-nodes
 minikube dashboard -p my-nodes
 
