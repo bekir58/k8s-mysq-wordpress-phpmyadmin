@@ -31,14 +31,10 @@
 
 
 
-
-
-
-## delete all 
+## delete namespace 
 kubectl delete -n test
 
 ## delete minikube
 minikube delete -p my-nodes
-
 
 
